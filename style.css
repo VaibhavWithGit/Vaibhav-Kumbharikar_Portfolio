@@ -1,0 +1,99 @@
+body{
+    background-image: url(/BG2.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100%;
+}
+
+/* ============= NAVBAR ============ */
+
+.navcont{
+margin: 1em auto;
+align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.ha{
+    position: sticky;
+    font-size: 1.6em;
+    color: rgb(95, 0, 124);
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    margin: 0 1.3rem;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ha:hover{
+    color: rgb(255, 255, 255);
+    padding: 0.3rem 0.9rem;
+    transition: 0.3s;
+    background-color: rgb(131, 0, 170);
+    border-radius: 25em;
+}
+
+.himg{
+    margin: auto 2em;
+    display: inline;
+}
+
+
+.hhead{
+    text-align: center;
+    margin: 4em 0;
+}
+
+.hh1{
+    text-align: center;
+    font-family: century gothic;
+    font-weight: 600;
+    color:rgb(80, 0, 130);
+    font-size: 7em;
+}
+
+.hh2{
+    margin: 0.7em 0 1.7em 0;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #000;
+    font-size: 2.2em;
+}
+
+.a2{
+    text-decoration: none;
+    background-color: rgb(80, 0, 130);
+    margin: 5em auto;
+    padding: 0.4em 1em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(238, 181, 255);
+    font-family: montserrat;
+    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.a2:hover{
+    
+
+    text-decoration: none;
+    /* background-color: rgb(227, 134, 255); */
+    margin: 5em auto;
+    padding: 0.4em 1.5em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    box-shadow:  0 9px 35px 3px rgba(116, 3, 203, 0.682);
+}
