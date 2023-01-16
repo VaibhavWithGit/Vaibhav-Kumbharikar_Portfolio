@@ -490,6 +490,14 @@ i:hover {
     margin: 0.6em;
 }
 
+.ty{
+    font-family: Tangerine;
+    font-size: 6em;
+    font-weight: 300;
+    color: rgb(202, 0, 0);
+    margin-top: 0.2em;    
+}
+
 /* ================================== RESPONSIVE ================================ */
 
 @media screen and (max-width: 600px) {
