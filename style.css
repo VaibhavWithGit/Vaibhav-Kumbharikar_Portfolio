@@ -1,26 +1,257 @@
-body{
-    background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/BG2.jpg);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/img/BG2.jpg); */
+    background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BG2.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: 100%;
+    background-color: rgb(208, 165, 255);
 }
 
-/* ============= NAVBAR ============ */
+/* ======================== HOME ========================== */
 
-.navcont{
-margin: 1em auto;
-align-items: center;
+.divicon {
+    display: inline;
 }
 
-.nav{
+button {
+    display: inline;
+}
+
+.nav {
     display: flex;
     justify-content: center;
 }
 
-.ha{
+.ha {
     position: sticky;
     font-size: 1.6em;
     color: rgb(95, 0, 124);
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    margin: 0 1.3rem;
+
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ha:hover {
+    color: rgb(255, 255, 255);
+    padding: 0.3rem 0.9rem;
+    transition: 0.3s;
+    background-color: rgb(131, 0, 170);
+    border-radius: 25em;
+}
+
+.himg {
+    margin: auto 2em;
+    width: 5%;
+}
+
+.hhead {
+    text-align: center;
+    margin: 4em 0;
+}
+
+.hh1 {
+    text-align: center;
+    font-family: century gothic;
+    font-weight: 600;
+    color: rgb(80, 0, 130);
+    font-size: 7em;
+}
+
+.hh2 {
+    margin: 0.7em 0 1.7em 0;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #000;
+    font-size: 2.2em;
+}
+
+.a2 {
+    text-decoration: none;
+    background-color: rgb(80, 0, 130);
+    margin: 5em auto;
+    padding: 0.4em 1em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(238, 181, 255);
+    font-family: montserrat;
+    word-spacing: 0rem;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.a2:hover {
+    text-decoration: none;
+    background-color: rgb(118, 0, 192);
+    margin: 5em auto;
+    padding: 0.4em 1.3em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    box-shadow: 0 9px 35px 3px rgba(116, 3, 203, 0.682);
+    word-spacing: 0.5rem;
+    border: 3px solid #fff;
+}
+
+#footer {
+    background-color: rgb(80, 0, 130);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: -19px;
+    margin: 0px;
+}
+
+.foot {
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    font-family: josefin sans;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* ============================= PORTFOLIO ============================ */
+
+body.bodyp {
+    background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGP1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgb(171, 255, 180);
+}
+
+.hap {
+    position: sticky;
+    font-size: 1.6em;
+    color: rgb(0, 121, 16);
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    margin: 0 1.3rem;
+
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hap:hover {
+    color: #fff;
+    padding: 0.3rem 0.9rem;
+    transition: 0.3s;
+    background-color: rgb(0, 121, 16);
+    border-radius: 25em;
+
+}
+
+.hh1p {
+    margin: 3rem auto;
+    text-align: center;
+    font-family: century gothic;
+    font-weight: 600;
+    color: rgb(0, 121, 16);
+    font-size: 6em;
+}
+
+.boxp {
+    background-color: rgba(0, 0, 0, 0.556);
+    text-align: center;
+    padding: 1rem 2rem 3.5rem 2rem;
+    width: 100%;
+    margin: 2em 1em 3.6em 1em;
+    border-radius: 25px;
+    border: 2px solid #fff;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.boxp:hover {
+    box-shadow: 0 9px 25px 15px rgba(0, 221, 255, 0.164);
+    background-color: rgba(0, 0, 0, 0.858);
+}
+
+.imgp {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 4em;
+}
+
+.butp {
+    text-decoration: none;
+    background-color: rgba(75, 255, 99, 0);
+    padding: 0.4em 1em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(198, 255, 198);
+    font-family: montserrat;
+    word-spacing: 0rem;
+    border: 2px solid rgb(198, 255, 198);
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.butp:hover {
+    text-decoration: none;
+    background-color: rgb(54, 255, 108);
+    margin: 5em auto;
+    padding: 0.4em 1.3em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(0, 102, 0);
+    font-family: montserrat;
+    box-shadow: 0 9px 35px 3px rgba(3, 203, 80, 0.682);
+    word-spacing: 0.5rem;
+    border: 3px solid #fff;
+}
+
+.hh2p {
+    color: rgb(0, 255, 64);
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    font-family: josefin sans;
+}
+
+
+/* ============================= ABOUT ============================ */
+
+body.bodya {
+    background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGA4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgb(175, 255, 250);
+}
+
+.haa {
+    position: sticky;
+    font-size: 1.6em;
+    color: rgb(0, 91, 109);
     text-decoration: none;
     padding: 0.3rem 0.5rem;
     margin: 0 1.3rem;
@@ -32,51 +263,31 @@ align-items: center;
     transition: all 0.3s ease;
 }
 
-.ha:hover{
-    color: rgb(255, 255, 255);
+.haa:hover {
+    color: #fff;
     padding: 0.3rem 0.9rem;
     transition: 0.3s;
-    background-color: rgb(131, 0, 170);
+    background-color: rgb(0, 101, 121);
     border-radius: 25em;
 }
 
-.himg{
-    margin: auto 2em;
-    display: inline;
-}
-
-
-.hhead{
-    text-align: center;
-    margin: 4em 0;
-}
-
-.hh1{
+.hh1a {
+    margin: 3rem auto;
     text-align: center;
     font-family: century gothic;
     font-weight: 600;
-    color:rgb(80, 0, 130);
-    font-size: 7em;
+    color: rgb(0, 101, 121);
+    font-size: 6em;
 }
 
-.hh2{
-    margin: 0.7em 0 1.7em 0;
-    font-family: Raleway;
-    font-weight: 400;
-    color: #000;
-    font-size: 2.2em;
-}
+.boxa {
+    background-color: rgba(0, 0, 0, 0.675);
+    text-align: center;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 2em 2.5em 2em 2.5em;
+    border-radius: 20px;
 
-.a2{
-    text-decoration: none;
-    background-color: rgb(80, 0, 130);
-    margin: 5em auto;
-    padding: 0.4em 1em;
-    font-size: 2em;
-    border-radius: 25em;
-    color: rgb(238, 181, 255);
-    font-family: montserrat;
-    
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -84,16 +295,397 @@ align-items: center;
     transition: all 0.3s ease;
 }
 
-.a2:hover{
-    
+.boxa:hover {
+    box-shadow: 0 9px 15px 5px rgba(0, 221, 255, 0.164);
+    background-color: rgba(0, 0, 0, 0.858);
+}
 
+.vimg {
+    width: 25%;
+    margin: 2em;
+    display: inline;
+}
+
+.hh2a {
+    color: rgb(0, 238, 255);
+    font-size: 3em;
+    margin: 0.7em 0;
+    display: inline;
+    font-family: Josefin Sans, Montserrat, Poppins, Raleway, Roboto, Rubik, Tangerine, Ubuntu;
+}
+
+.hh3a {
+    color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-family: Josefin Sans, Montserrat, Poppins, Raleway, Roboto, Rubik, Tangerine, Ubuntu;
+    margin-bottom: 1em;
+}
+
+.boxa2 {
+    padding-top: 2em;
+}
+
+.boxa2 ul li {
+    text-align: left;
+    font-size: 1.em;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+/* ================================== CONTACT ================================ */
+
+body.bodyc {
+    background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGC1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-color: rgb(255, 187, 187);
+}
+
+.hac {
+    position: sticky;
+    font-size: 1.6em;
+    color: rgb(197, 0, 0);
     text-decoration: none;
-    /* background-color: rgb(227, 134, 255); */
-    margin: 5em auto;
-    padding: 0.4em 1.5em;
+    padding: 0.3rem 0.5rem;
+    margin: 0 1.3rem;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hac:hover {
+    color: #fff;
+    padding: 0.3rem 0.9rem;
+    transition: 0.3s;
+    background-color: rgb(180, 0, 0);
+    border-radius: 25em;
+}
+
+.hh1c {
+    margin: 3rem auto;
+    text-align: center;
+    font-family: century gothic;
+    font-weight: 600;
+    color: rgb(163, 0, 0);
+    font-size: 6em;
+}
+
+.bigc {
+    padding: auto 2em;
+}
+
+.boxc {
+    background-color: rgba(255, 238, 238, 0.285);
+    text-align: center;
+    padding: 1rem 2rem 3.5rem 2rem;
+    width: 100%;
+    margin: 2em 1em 3.6em 1em;
+    border-radius: 25px;
+    border: 2px solid #fff;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.boxc:hover {
+    box-shadow: 0 9px 15px 5px rgb(255, 156, 156);
+    background-color: rgba(255, 194, 194, 0.712);
+}
+
+.hh2c {
+    color: rgb(210, 0, 0);
+    font-size: 3em;
+    margin: 0.2em 0 0.5em 0;
+    margin-bottom: 0.5em;
+    font-family: Montserrat, Poppins, Raleway, Roboto, Rubik, Tangerine, Ubuntu;
+}
+
+.formc {
+    text-align: center;
+}
+
+.form-control {
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+label {
+    text-align: left;
+    margin: 1em auto;
+    width: 80%;
+    color: rgb(210, 0, 0);
+    font-family: Josefin Sans, Ubuntu;
+    font-size: 1.5em;
+}
+
+.textc {
+    width: 80%;
+}
+
+.butc {
+    text-decoration: none;
+    background-color: rgba(75, 255, 99, 0);
+    /* margin: 10em auto; */
+    padding: 0.4em 1em;
     font-size: 2em;
     border-radius: 25em;
-    color: rgb(255, 255, 255);
+    color: rgb(210, 0, 0);
     font-family: montserrat;
-    box-shadow:  0 9px 35px 3px rgba(116, 3, 203, 0.682);
+    word-spacing: 0rem;
+    border: 2px solid rgb(210, 0, 0);
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.butc:hover {
+    text-decoration: none;
+    background-color: rgb(255, 150, 150);
+    margin: 5em auto;
+    padding: 0.4em 1.3em;
+    font-size: 2em;
+    border-radius: 25em;
+    color: rgb(134, 0, 0);
+    font-family: montserrat;
+    box-shadow: 0 9px 35px 3px rgba(0, 0, 0, 0.682);
+    word-spacing: 0.5rem;
+    border: 3px solid #fff;
+}
+
+.textc {
+    margin-bottom: 2em;
+}
+
+.logos {
+    margin: 5em 0 0 0;
+}
+
+i {
+    color: rgba(0, 0, 0, 0.621);
+    margin: 0.5em;
+    font-size: 3em;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+i:hover {
+    font-size: 4.5em;
+    color: rgb(202, 0, 0);
+    margin: 0.6em;
+}
+
+/* ================================== RESPONSIVE ================================ */
+
+@media screen and (max-width: 600px) {
+
+    .himg {
+        width: 15%;
+    }
+
+
+    /* --------------------------- HOME ---------------------------- */
+    body {
+        background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BG2M.jpg);
+    }
+
+    .ti {
+        color: rgb(95, 0, 124);
+        margin: 1em 0;
+    }
+
+    .ha {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .himg {
+        margin: auto 2em;
+    }
+
+    .hhead {
+        text-align: center;
+        margin: 4em 0;
+    }
+
+    .hh1 {
+        font-size: 4.3em;
+    }
+
+    .hh2 {
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.421);
+    }
+
+    .a2 {
+        font-size: 1.3em;
+    }
+
+    .a2:hover {
+        font-size: 1.5em;
+    }
+
+    /* --------------------------- PORTFOLIO ---------------------------- */
+
+    body.bodyp {
+        background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGP1M.jpg);
+    }
+
+    .tp {
+        color: rgb(0, 121, 16);
+        margin: 1em 0;
+    }
+
+    .hap {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .hh1p {
+        font-size: 6em;
+    }
+
+    .butp {
+        font-size: 1.2em;
+    }
+
+    .butp:hover {
+        font-size: 1.5em;
+    }
+
+    .hh2p {
+        font-size: 3em;
+    }
+
+    /* --------------------------- ABOUT ---------------------------- */
+
+    body.bodya {
+        background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGA4M.jpg);
+    }
+
+    .ta {
+        color: rgb(0, 101, 121);
+        margin: 1em 0;
+    }
+
+    .haa {
+        text-align: center;
+    }
+
+    .hh1a {
+        font-size: 5.5em;
+    }
+
+    .boxa {
+        margin: 1em;
+        background-color: rgba(0, 0, 0, 0.858);
+        box-shadow: 0 9px 15px 5px rgba(0, 59, 68, 0.379);
+    }
+
+    .vimg {
+        width: 75%;
+        margin: 2em;
+    }
+
+    .hh2a {
+        font-size: 2.5em;
+    }
+
+    .hh3a {
+        font-size: 1.3rem;
+        margin: 1em 0;
+    }
+
+    .boxa2 {
+        padding-top: 2em;
+    }
+
+    .boxa2 ul li {
+        text-align: left;
+    }
+
+    /* --------------------------- CONTACT ---------------------------- */
+
+    body.bodyc {
+        background-image: url(https://vaibhavwithgit.github.io/Vaibhav-Kumbharikar_Portfolio/img/BGC1M.jpg);
+        background-color: rgb(255, 227, 227);
+    }
+
+    .tc {
+        color: rgb(197, 0, 0);
+        margin: 1em 0;
+        float: right;
+    }
+
+    .hac {
+
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .hh1c {
+        font-size: 4.5em;
+    }
+
+    .boxc {
+        box-shadow: 0 9px 15px 5px rgb(255, 156, 156);
+        background-color: rgba(255, 194, 194, 0.712);
+    }
+
+    .hh2c {
+        color: rgb(210, 0, 0);
+        font-size: 2.5em;
+        /* margin: 0.2em 0 0.5em 0; */
+        /* margin-bottom: 0.5em; */
+        font-family: Montserrat;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    .butc {
+        font-size: 1.1em;
+    }
+
+    .butc:hover {
+        font-size: 1.3em;
+    }
+
+    .textc {
+        margin-bottom: 2em;
+    }
+
+    .logos {
+        margin: 1em 0 0 0;
+    }
+
+    a i {
+        font-size: 3em;
+    }
+
+    i:hover {
+        font-size: 3.8em;
+    }
 }
