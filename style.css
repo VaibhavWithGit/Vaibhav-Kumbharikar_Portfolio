@@ -634,8 +634,13 @@ i:hover {
         float: right;
     }
 
-    .hac {
+    .cimg {
+        margin: auto 2em;
+        width: 5%;
+        display: none;
+    }
 
+    .hac {
         font-size: 1.6em;
         text-align: center;
     }
