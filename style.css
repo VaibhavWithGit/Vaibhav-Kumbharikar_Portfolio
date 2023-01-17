@@ -490,12 +490,12 @@ i:hover {
     margin: 0.6em;
 }
 
-.ty{
+.ty {
     font-family: Tangerine;
     font-size: 6em;
     font-weight: 300;
     color: rgb(202, 0, 0);
-    margin-top: 0.2em;    
+    margin-top: 0.2em;
 }
 
 /* ================================== RESPONSIVE ================================ */
@@ -568,6 +568,7 @@ i:hover {
 
     .hh1p {
         font-size: 6em;
+        word-spacing: 2em;
     }
 
     .butp {
@@ -599,6 +600,7 @@ i:hover {
 
     .hh1a {
         font-size: 5.5em;
+        word-spacing: 2em;
     }
 
     .boxa {
@@ -648,13 +650,20 @@ i:hover {
         display: none;
     }
 
+    .nc {
+        width: 100%;
+    }
+
     .hac {
-        font-size: 1.6em;
-        text-align: center;
+        /* font-size: 1.6em; */
+        /* width: 100%; */
+        /* text-align: center; */
+        margin: 0 auto;
     }
 
     .hh1c {
         font-size: 4.5em;
+        word-spacing: 2em;
     }
 
     .boxc {
